@@ -36,13 +36,6 @@
 
 @dynamic layer;
 
-- (id)initWithFrame:(CGRect)frame {
-    if (self = [super initWithFrame:frame]) {
-        // Initialization code
-    }
-    return self;
-}
-
 - (void)setColors:(NSArray *)newColors {
 	NSMutableArray* normalizedColors = [[NSMutableArray alloc] initWithCapacity:newColors.count];
 	
